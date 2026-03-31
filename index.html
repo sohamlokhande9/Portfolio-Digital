@@ -1,130 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Soham Lokhande</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soham Lokhande | Developer & Creator</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
 
-<header class="nav">
-  <h2>Soham</h2>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
 
-<!-- HERO -->
-<section class="hero">
-  <p class="intro">Hello, I'm</p>
-  <h1>Soham Lokhande</h1>
-  <h2>ENTC Student | Aspiring Developer</h2>
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="#home" class="logo">&lt;Soham /&gt;</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Work</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-  <div class="hero-btns">
-    <a href="#projects" class="btn primary">View Projects</a>
-    <a href="#contact" class="btn ghost">Contact Me</a>
-  </div>
-</section>
+    <main class="container">
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="greeting">Welcome to my digital space</span>
+                <h1>Hi, I'm <span class="highlight">Soham Lokhande</span></h1>
+                <h2>I am a <span class="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="hero-desc">Bridging the gap between physical hardware and digital code. First-year ENTC engineering student at MIT AOE, building things that actually matter.</p>
+                
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <h3>About Me</h3>
+        <section id="about" class="fade-in">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card about-grid">
+                <div class="about-text">
+                    <p>I'm a first-year Electronics and Telecommunication Engineering student with a deep passion for understanding how things work under the hood. For me, engineering isn't just theory—it's breadboards, burnt LEDs, and late-night debugging.</p>
+                    <p>But I'm not just a tech guy. I believe logic needs creativity to thrive. I'm a professional tabla player (completed 5 classical tests) and an active member of the Goonj Unplugged club. This blend of rhythm, art, and circuits shapes the way I solve problems.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>MIT AOE</h3>
+                        <p>Alandi, Pune</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>1st Year</h3>
+                        <p>ENTC Engineering</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Co-Founder</h3>
+                        <p>Binary Botz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <div class="about-box">
-    <p>
-      I'm a first-year ENTC student at MIT AOE, Alandi.
-      Still figuring things out — but I enjoy building and experimenting.
-    </p>
+        <section id="skills" class="fade-in">
+            <h2 class="section-title">My Toolkit</h2>
+            <div class="skills-grid">
+                
+                <div class="glass-card skill-card">
+                    <h3 class="skill-title">Software & Web</h3>
+                    <div class="skill-tags">
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
 
-    <p>
-      I work on Arduino projects and basic web development.
-      Interested in both hardware and software side of tech.
-    </p>
-  </div>
-</section>
+                <div class="glass-card skill-card">
+                    <h3 class="skill-title">Hardware & Core</h3>
+                    <div class="skill-tags">
+                        <span>Arduino Uno</span>
+                        <span>Microcontrollers</span>
+                        <span>IC 555 Timers</span>
+                        <span>Circuit Design</span>
+                        <span>IoT Sensors</span>
+                    </div>
+                </div>
 
-<!-- SKILLS -->
-<section id="skills" class="section">
-  <h3>Skills</h3>
+            </div>
+        </section>
 
-  <div class="skills-grid">
+        <section id="projects" class="fade-in">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <h3>Obstacle Avoiding Robot</h3>
+                        <span class="year">2026</span>
+                    </div>
+                    <p>An autonomous rover built entirely from scratch. Programmed in C++ with ultrasonic sensors to map its surroundings and dynamically dodge barriers.</p>
+                    <div class="project-tech">
+                        <span>Arduino Uno</span>
+                        <span>C++</span>
+                        <span>Robotics</span>
+                    </div>
+                </div>
 
-    <div class="skill-card">
-      <h4>Programming</h4>
-      <p>C, C++</p>
-    </div>
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <h3>Smart Hygiene Monitor</h3>
+                        <span class="year">2025</span>
+                    </div>
+                    <p>A Design Thinking project for temple restrooms. Uses IoT sensors to track cleanliness and foot traffic, automating maintenance alerts.</p>
+                    <div class="project-tech">
+                        <span>IoT</span>
+                        <span>Sensors</span>
+                        <span>System Design</span>
+                    </div>
+                </div>
 
-    <div class="skill-card">
-      <h4>Web</h4>
-      <p>HTML, CSS</p>
-    </div>
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <h3>Digital Doorbell Circuit</h3>
+                        <span class="year">2025</span>
+                    </div>
+                    <p>A pure hardware challenge. Designed and wired a functioning doorbell using an IC 555 timer, focusing on raw schematics and core components.</p>
+                    <div class="project-tech">
+                        <span>IC 555 Timer</span>
+                        <span>Prototyping</span>
+                        <span>Electronics</span>
+                    </div>
+                </div>
 
-    <div class="skill-card">
-      <h4>Electronics</h4>
-      <p>Arduino, Microcontrollers</p>
-    </div>
+            </div>
+        </section>
 
-  </div>
-</section>
+        <section id="journey" class="fade-in">
+            <h2 class="section-title">My Journey</h2>
+            <div class="timeline">
+                
+                <div class="glass-card timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-tag">Startup</span>
+                    <h3>Co-founder @ Binary Botz</h3>
+                    <p>Bridging the gap in affordable hardware access. We sell electronic components directly to students and hobbyists to make building easier for everyone.</p>
+                </div>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <h3>Projects</h3>
+                <div class="glass-card timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-tag">Community</span>
+                    <h3>Admin @ Circuit Breakers</h3>
+                    <p>Leading our college's hardware community. I organize discussions, help troubleshoot messy breadboards, and foster a culture of out-of-syllabus building.</p>
+                </div>
 
-  <div class="project-grid">
+                <div class="glass-card timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-tag">Academics</span>
+                    <h3>Creative Tech & AR</h3>
+                    <p>Exploring the Augmented Reality track. Fascinated by how digital interfaces can overlay and interact with physical electronic hardware.</p>
+                </div>
 
-    <div class="project-card">
-      <div class="project-img"></div>
+            </div>
+        </section>
 
-      <h4>Obstacle Avoiding Robot</h4>
-      <p>
-        Robot using ultrasonic sensor to detect obstacles and move accordingly.
-      </p>
+        <section id="contact" class="fade-in">
+            <div class="glass-card contact-card">
+                <h2>Let's connect and build.</h2>
+                <p>I'm always down to collaborate on a hardware project, talk about startups, or just geek out over tech. My inbox is always open.</p>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/soham-lokhande-a53383338" target="_blank" class="social-btn">LinkedIn</a>
+                    <a href="https://share.google/Qir6rnxaVXR34TarB" target="_blank" class="social-btn">GitHub</a>
+                    <a href="https://www.instagram.com/lokhande_soham5" target="_blank" class="social-btn">Instagram</a>
+                    <a href="https://wa.me/+918329968545" target="_blank" class="social-btn">WhatsApp</a>
+                </div>
+            </div>
+        </section>
 
-      <div class="project-btns">
-        <button>Demo</button>
-        <button>Code</button>
-      </div>
-    </div>
+    </main>
 
-    <div class="project-card">
-      <div class="project-img"></div>
+    <footer>
+        <p>Designed & Developed with purpose by Soham Lokhande.</p>
+        <p class="copyright">© 2026 No frameworks. Just pure code.</p>
+    </footer>
 
-      <h4>Arduino Experiments</h4>
-      <p>
-        Small Arduino projects including LED, sensors and automation basics.
-      </p>
-
-      <div class="project-btns">
-        <button>Demo</button>
-        <button>Code</button>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <h3>Contact</h3>
-
-  <div class="contact-links">
-    <a href="https://www.linkedin.com/in/soham-lokhande-a53383338">LinkedIn</a>
-    <a href="https://share.google/Qir6rnxaVXR34TarB">GitHub</a>
-    <a href="https://www.instagram.com/lokhande_soham5">Instagram</a>
-    <a href="https://wa.me/+918329968545">WhatsApp</a>
-  </div>
-</section>
-
-<footer>
-  Designed & Developed by Soham Lokhande
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
